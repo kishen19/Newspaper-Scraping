@@ -1,0 +1,16 @@
+Times of India
+
+Title of Article: {{title}}
+
+{{body}}
+
+{% if summary %}Article Summary: {{summary}}{% endif %}
+
+{% if keywords %}Keywords: {% for keyword in keywords %}{{keyword}}, {% endfor %}{% endif %}
+
+{% if comments %}
+Comments:
+{% for name in comments %}
+{{name}} - {{comments[name]}}
+{% endfor %}
+{% endif %}
