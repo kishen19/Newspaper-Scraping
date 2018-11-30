@@ -9,7 +9,6 @@ from jinja2 import FileSystemLoader, Environment
 import re
 from math import floor
 from datetime import datetime
-from tkinter import *
 import time
 
 old_date = -2209180870000
